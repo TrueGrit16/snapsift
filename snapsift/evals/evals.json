@@ -1,0 +1,23 @@
+{
+  "skill_name": "photo-culling-curator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "My Lightroom export folder from the Bali trip has like 1400 photos and a bunch of GoPro clips, it's a total mess with tons of near-identical shots and a lot where someone blinked or wasn't looking. Can you clean it up so I'm left with just the good ones, and don't delete anything I might want back.",
+      "expected_output": "Inventory; quality + modern-vision passes; a balanced/strong cull plan with people protection; contact-sheet verification; rejects moved to Archive with a manifest and integrity reconciliation; nothing deleted.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Pick the best ~80 photos from this wedding folder for a WhatsApp highlights album. Make sure everyone's eyes are open and they're actually looking at the camera in the portraits, and cover the whole day not just the ceremony.",
+      "expected_output": "Shortlist of ~80 resized, date-ordered copies in a new folder, people quota with eyes-open/on-camera readiness, coverage across sessions, _filelist.txt, preview montage; originals untouched.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I went through the folder you cleaned and deleted about 50 more that were still soft or awkward, and pulled a few back out of Archive. Learn from what I changed and tell me what your scoring is still getting wrong.",
+      "expected_output": "Diff of false-keeps vs restored using listdir truth; metric analysis showing which signals separate them (or do not); concrete threshold adjustments; memory update.",
+      "files": []
+    }
+  ]
+}
