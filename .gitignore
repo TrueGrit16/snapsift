@@ -5,3 +5,11 @@ __pycache__/
 /sheets/
 work/
 .venv/
+
+# internal staging / scratch (not for the public repo)
+FINAL_PUSH.md
+PUBLISH.md
+*launch-posts*
+*-github.zip
+eval_fixture_*/
+eval_out/
